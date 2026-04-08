@@ -1,0 +1,47 @@
+{
+  "original": {
+    "refusal_rate": 0.0,
+    "compliance_rate": 0.0,
+    "ambiguous_rate": 1.0,
+    "safety_drift": 0.0,
+    "drift_ratio": 0.0,
+    "orthogonal_drift": 0.0,
+    "cosine_similarity": 1.0,
+    "cka_vs_original": 1.0,
+    "inter_class_distance": 5.8302226066589355,
+    "intra_class_variance": 12.37997055053711,
+    "fisher_score": 0.47093994110483484
+  },
+  "finetuned": {
+    "refusal_rate": 0.3,
+    "compliance_rate": 0.15,
+    "ambiguous_rate": 0.55,
+    "inter_class_distance": 5.715088367462158,
+    "intra_class_variance": 11.60543155670166,
+    "fisher_score": 0.4924494478826541,
+    "total_drift": 14.348623275756836,
+    "safety_drift": 7.9237518310546875,
+    "orthogonal_drift": 11.911178588867188,
+    "drift_ratio": 0.5522308080190662,
+    "cosine_similarity": 0.8838207125663757,
+    "mean_proj_magnitude": 1.016192078590393,
+    "max_proj_magnitude": 3.6020660400390625,
+    "cka_vs_original": 0.9357184767723083
+  },
+  "mitigated": {
+    "refusal_rate": 0.3,
+    "compliance_rate": 0.1,
+    "ambiguous_rate": 0.6,
+    "inter_class_distance": 5.701298236846924,
+    "intra_class_variance": 11.508089542388916,
+    "fisher_score": 0.4954165685705335,
+    "total_drift": 14.390792846679688,
+    "safety_drift": 8.023170471191406,
+    "orthogonal_drift": 11.896547317504883,
+    "drift_ratio": 0.5575210866486303,
+    "cosine_similarity": 0.8832252621650696,
+    "mean_proj_magnitude": 1.026833176612854,
+    "max_proj_magnitude": 3.694194793701172,
+    "cka_vs_original": 0.9372678399085999
+  }
+}
